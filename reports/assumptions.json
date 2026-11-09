@@ -1,0 +1,42 @@
+{
+  "battery_scenarios": [
+    {
+      "power_mw": 1.0,
+      "capacity_mwh": 1.0,
+      "round_trip_efficiency": 0.9,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "fee_eur_mwh": 1.0,
+      "wear_eur_mwh_discharged": 5.0,
+      "daily_cycles": 1.0
+    },
+    {
+      "power_mw": 1.0,
+      "capacity_mwh": 2.0,
+      "round_trip_efficiency": 0.9,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "fee_eur_mwh": 1.0,
+      "wear_eur_mwh_discharged": 5.0,
+      "daily_cycles": 1.0
+    },
+    {
+      "power_mw": 1.0,
+      "capacity_mwh": 4.0,
+      "round_trip_efficiency": 0.9,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "fee_eur_mwh": 1.0,
+      "wear_eur_mwh_discharged": 5.0,
+      "daily_cycles": 1.0
+    }
+  ],
+  "provenance": {
+    "url": "https://api.energy-charts.info/v2/price?bzn=DE-LU&start=2024-01-01&end=2024-12-31",
+    "retrieved_utc": "2026-11-09T14:16:13.635199+00:00",
+    "sha256": "c6ee3742fb7509fd1a4b642fef2a9460b42f1b23c3dcd91e84b2c97ce8823b9e",
+    "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0) from Bundesnetzagentur | SMARD.de"
+  },
+  "period": "2024",
+  "scope": "Historical day-ahead arbitrage screening; no investment valuation"
+}
